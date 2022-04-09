@@ -9,4 +9,6 @@ Feature: showing off behave
      When we increment 2 time(s)
      Then we should see 8
 
-
+     Given starting at 0 with a step size of -1
+     When we increment 1 time(s)
+     Then we should see -1.

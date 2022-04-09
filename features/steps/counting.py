@@ -1,6 +1,9 @@
 from behave import *
+# Must manually import the code under test in these steps.
 import models 
 
+# The context object trickles down through the steps, accumulating
+# state which we prepare-act-assert on.
 @given('starting at {start} with a step size of {step_size}')
 def step_impl(context, start, step_size):
     context.start = start
