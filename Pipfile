@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+behave = "==1.2.6"
+parse = "==1.19.0"
+parse-type = "==0.6.0"
+six = "==1.16.0"
+PyHamcrest = "==2.0.3"
+pytest-bdd = "*"
+pytest = "*"
+pep8 = "*"
+pre-commit-hooks = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

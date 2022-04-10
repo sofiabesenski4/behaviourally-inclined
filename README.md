@@ -1,5 +1,6 @@
 ## Learning how to use Python's BDD Tooling: _Behave_
 
+
 ```
 import behave
 
@@ -36,3 +37,17 @@ def step_impl(context):
 
 ```
 
+```
+import pytest-bdd
+```
+
+
+https://automationpanda.com/2018/10/22/python-testing-101-pytest-bdd/
+
+
+Using:
+
+## Pre-commit and flake8
+## Follow these steps
+https://pre-commit.com/
+https://flake8.pycqa.org/en/latest/user/using-hooks.html
