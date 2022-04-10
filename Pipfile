@@ -13,6 +13,7 @@ pytest-bdd = "*"
 pytest = "*"
 pep8 = "*"
 pre-commit-hooks = "*"
+pytest-mock = "*"
 
 [dev-packages]
 
