@@ -12,8 +12,7 @@ def test_counter():
 
 
 # Given Steps
-@given(parsers.parse('a counter starting at {start:d} \
-    with a step size of {step_size:d}'))
+@given(parsers.parse('a counter starting at {start:d} with a step size of {step_size:d}'))
 def a_counter_starting_at(start, step_size):
     pytest.counter = models.Counter(start=start, step_size=step_size)
 
